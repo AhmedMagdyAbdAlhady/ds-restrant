@@ -1,0 +1,37 @@
+.headerImage2 {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 70%),
+        url('../../../../public/Group3.png');
+    background-repeat: no-repeat;
+    background-size: 98% 100%;
+}
+.bordStyle{
+    border-top: solid 2px #ffe4b5;
+    border-bottom: solid 2px #ffe4b5;
+}
+.h435px{
+height: 435px;
+}
+.Menu{
+    font-size: 50px;
+    text-align: center;
+    color:rgba(225, 225, 225, .1) !important ;
+    background-image: url('../../../../public/menu.jpg');
+    background-repeat: repeat-x;
+    background-clip: text;
+    animation: menu   linear infinite;
+
+}
+@keyframes menu {
+    0%{
+        background-position: left 0px top 90%;
+    }
+    40%{
+        background-position: left 905px top 90%;
+
+    }
+}
+@media screen and (max-width: 600px) {
+    .h435px{
+        height: 200px;
+    }
+}

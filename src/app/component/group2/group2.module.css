@@ -1,0 +1,19 @@
+.headerImage2 {
+    background-image: radial-gradient(circle, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 70%),
+        url('../../../../public/group2.png');
+    background-repeat: no-repeat;
+    background-size: 98% 100%;
+}
+
+.subTitel{
+    padding:50px;
+}
+@media screen and (max-width: 600px) {
+.subheader{
+    padding:0px;
+}
+.subheader span{
+    display:block;
+}
+
+}

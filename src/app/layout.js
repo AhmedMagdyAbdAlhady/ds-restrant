@@ -1,5 +1,10 @@
 import { Inter } from "next/font/google";
+import '../../node_modules/@fortawesome/fontawesome-free/css/all.css';
+import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import Bootstrap from "./component/bootstarpjs/bootstarpScript";
+import '../../node_modules/animate.css';
 import "./globals.css";
+import WowJs from './component/wowjs/WowJs';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -11,7 +16,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className  } >
+        {children}
+        <Bootstrap />
+        <WowJs/>
+      </body>
     </html>
   );
 }
