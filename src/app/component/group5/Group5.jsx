@@ -13,7 +13,7 @@ const Group5 = () => {
             </h1>
             <div className={` text-center padding-100 pt-1 d-flex  justify-content-center  wow animate__animated   `}>
                 <p className={`w35 text-white  px-2  wow animate__animated animate__pulse animate__slower animate__infinite `}>
-                This is Photoshop's version  of Lorem Ipsum. 
+                This is Photoshop`&apos;`s version  of Lorem Ipsum. 
                 </p>
             </div>
         </div>

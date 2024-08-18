@@ -5,7 +5,7 @@ const Group3 = () => {
         <div className={`${headerImage2}`}>
             <div className={`Dsopacity1 text-center d-flex  justify-content-center py-5 wow animate__animated   `}>
                 <p className={`w35 text-white py-5 px-2  wow animate__animated animate__jackInTheBox `}>
-                    This is Photoshop's version  of Lorem
+                    This is Photoshop`&apos;`s version  of Lorem
                 </p>
             </div>
             <div className='container'>
@@ -18,7 +18,7 @@ const Group3 = () => {
             </div>
             <div className={`Dsopacity1 text-center d-flex  justify-content-center wow animate__animated   `}>
                 <p className={`w35 text-white px-2  wow animate__animated animate__jackInTheBox `}>
-                This is Photoshop's version  of 
+                This is Photoshop`&apos;`s version  of 
                 </p>
             </div>
         </div>

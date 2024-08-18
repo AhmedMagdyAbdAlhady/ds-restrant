@@ -2,14 +2,13 @@
 import React, { useEffect } from 'react';
 import WOW from '../../../../node_modules/wowjs/dist/wow.min.js'
 
-const bootstrap = () => {
+const WowJs = () => {
     useEffect(() => {
         const wow = new WOW.WOW();
         wow.init();
-      }, []);
-    return (
-        <></>
-    );
+    }, []);
+    return null;
 }
 
-export default bootstrap;
+export default WowJs;
+

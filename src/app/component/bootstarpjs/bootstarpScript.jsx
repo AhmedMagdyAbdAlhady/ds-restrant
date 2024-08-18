@@ -1,13 +1,8 @@
 'use client'
 import React, { useEffect } from 'react';
-import bootstrapScript from '../../../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js'
+import  '../../../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js'
 const bootstrap = () => {
-
-    return (
-        useEffect(() => {
-            { bootstrapScript }
-        }, [])
-    );
+    return null;
 }
 
 export default bootstrap;

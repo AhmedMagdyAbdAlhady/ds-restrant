@@ -45,8 +45,8 @@ const Group1 = () => {
                 <div className={`${bordStyle} ${h435px}`}></div>
             </div>
             <div className={`Dsopacity1 text-center d-flex  justify-content-center py-5 wow animate__animated animate__zoomInUp `}>
-                <p className={`w35 text-white py-5 px-2  `}>
-                This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor
+                <p className={`w35 text-white py-5 px-2`}>
+                This is Photoshop`&apos;`s version  of Lorem Ipsum Proin gravida nibh vel velit auctor
                 aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat
                ipsum, nec sagittis sem nibh id elit. Duis sed </p>
             </div>
