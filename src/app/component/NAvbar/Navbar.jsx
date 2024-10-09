@@ -3,7 +3,7 @@ import {fontStyle,bordStyle} from './Navbar.module.css'
 import Link from 'next/link';
 const NavBar = ({Dsopacity}) => {
     return (
-        <nav className={`${Dsopacity} w-100 animate__animated animate__bounce animate__delay-2s`}>
+        <nav id='Home'  className={`${Dsopacity} w-100 animate__animated animate__bounce animate__delay-2s`}>
         <nav className={`navbar navbar-expand-sm  ${bordStyle} container `}>
                 <div className="container-fluid row">
                     <Link className={`navbar-brand col-3 text-center m-0 p-0 ${fontStyle} animate__animated animate__backInDown`} href="#Home">We</Link>

@@ -35,7 +35,7 @@ const Group1 = () => {
                 />
             </div>
                 <NavBar  Dsopacity={Dsopacity1} />
-                <div className={`${Dsopacity1}  `} id='Home' >
+                <div className={`${Dsopacity1}  `} >
                 <h1 className={`text-center ${DSFont} wow animate__animated animate__bounce animate__slower animate__infinite `} >
                     DS
                     <p className={`text-center ${RestrantFont}`}>RESTRANT</p>

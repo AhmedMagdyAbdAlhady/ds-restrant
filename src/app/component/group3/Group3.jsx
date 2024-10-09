@@ -11,8 +11,8 @@ const Group3 = () => {
             <div className='container'>
                 <div className={`${bordStyle} ${h435px}`}></div>
             </div>
-            <div className={`Dsopacity1 text-center d-flex  justify-content-center py-5 wow animate__animated animate__zoomInUp `}>
-                <h2 className={`  wow animate__animated animate__bounce animate__slower animate__infinite   ${Menu}`} >
+            <div id="Menu" className={`Dsopacity1 text-center d-flex  justify-content-center py-5 wow animate__animated animate__zoomInUp `}>
+                <h2  className={`  wow animate__animated animate__bounce animate__slower animate__infinite   ${Menu}`} >
                 MENU
                 </h2>
             </div>
